@@ -1,0 +1,10 @@
+ignored = ["github.com/BlockChain/blockchain-service/chaincode"]
+
+[[constraint]]
+  # Release v1.0.0-alpha4
+   name = "github.com/hyperledger/fabric-sdk-go"
+   revision = "a906355f73d060d7bf95874a9e90dc17589edbb3"
+[[constraint]]
+   source = "github.com/golang/crypto"
+   name = "golang.org/x/crypto"
+   branch = "master"

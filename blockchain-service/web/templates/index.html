@@ -1,0 +1,29 @@
+{{define "title"}}Login{{end}}
+{{define "user"}}
+{{end}}
+{{define "body"}}
+    <h3>Login</h3>
+    <pre>
+        <form id="form1" action="/login" method="post" enctype="multipart/form-data">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username">
+            <br/>
+            <label for="password">Password</label>
+            <input type="text" id="password" name="password">
+            <br/>
+            <button type="submit">Login</button>
+            <button type="button" onclick="window.location='/register'">register</button>
+        </form>
+    </pre>
+{{end}}
+{{define "script"}}
+    <script src="../assets/js/jquery_form.js"></script>
+    <script>
+        $('#form1').ajaxForm(function (data) {
+            if (data === "success") {
+                console.log("success")
+                window.location='/home'
+            }
+        })
+    </script>
+{{end}}

@@ -1,0 +1,57 @@
+{{define "title"}}Home{{end}}
+{{define "user"}}
+    <li><a id="user" href=""></a></li>
+    <li><a href="javascript:quit();">Quit</a></li>
+{{end}}
+{{define "body"}}
+<div class="container">
+
+</div>
+<h1>Home</h1>
+
+<p id="hidden" hidden="hidden">{{.Username}}</p>
+<div id="empty" style="display: block;">
+    <pre>no data</pre>
+</div>
+<div id="data" style="height: 600px;overflow: auto">
+    {{range .BlocksData}}
+        <pre>
+            {{.Key}}:{{.Value}}
+            Transactionid:{{.TransactionId}}
+            发货方:{{.Sender}}
+            收货方:{{.Receive}}
+            发货数据:{{.DataCnt}}
+            时间:{{.TimeStamp}}
+        </pre>
+    {{end}}
+</div>
+
+<a href="request"> >>>Add Block to Blockchain>>></a>
+{{end}}
+{{define "script"}}
+    <script>
+        window.onload = function () {
+            document.getElementById("user").innerText = document.getElementById("hidden").innerText
+            if (document.getElementById("data").childElementCount!==0) {
+                document.getElementById("empty").style.display = "none"
+            } else {
+                document.getElementById("empty").style.display = "block"
+            }
+        }
+        function quit() {
+            console.log("quit")
+            window.location = "/login";
+            setCookie("username","",-1)
+        }
+        function setCookie(name, value, seconds) {
+            seconds = seconds || 0;
+            var expires = "";
+            if (seconds != 0) {
+                var date = new Date();
+                date.setTime(date.getTime() + (seconds * 1000));
+                expires = "; expires=" + date.toGMTString();
+            }
+            document.cookie = name + "=" + escape(value) + expires + "; path=/";
+        }
+    </script>
+{{end}}

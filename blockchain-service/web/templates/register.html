@@ -1,0 +1,36 @@
+{{define "title"}}Login{{end}}
+{{define "user"}}
+{{end}}
+{{define "body"}}
+    <pre>Register</pre>
+    <pre>
+        <form id="form1" action="/register" method="post" enctype="multipart/form-data">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username">
+            <br/>
+            <label for="password">Password</label>
+            <input type="text" id="password" name="password">
+            <br/>
+            <label for="confirmPwd">ConfirmPassword</label>
+            <input type="text" id="confirmPwd" name="confirmPwd">
+            <br/>
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email">
+            <br/>
+            <button type="submit">Register</button>
+            <button type="button" onclick="window.location='/login'">Return to Login</button>
+        </form>
+    </pre>
+{{end}}
+
+{{define "script"}}
+    <script src="../assets/js/jquery_form.js"></script>
+    <script>
+        $('#form1').ajaxForm(function (data) {
+            if (data === "success") {
+                console.log("success")
+                window.location="/login"
+            }
+        })
+    </script>
+{{end}}

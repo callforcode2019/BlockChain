@@ -1,0 +1,61 @@
+{{define "title"}}Request{{end}}
+{{define "user"}}
+    <li><a id="user" href=""></a></li>
+    <li><a href="javascript:quit();">Quit</a></li>
+{{end}}
+{{define "body"}}
+<h1>Request</h1>
+<p id="hidden" hidden="hidden">{{.Username}}</p>
+
+{{ if .Response }}
+{{ if .Success }}
+<div class="alert alert-success" role="alert">
+    Successful request, transaction ID: {{ .TransactionId }}
+</div>
+{{ else }}
+<div class="alert alert-danger" role="alert">
+    Unable to submit the request, retry later.
+</div>
+{{ end }}
+{{ end }}
+
+<form class="form-inline" action="request" method="post">
+    <div class="form-group">
+        <label for="helloValue">发货方</label>
+        <input type="text" class="form-control" id="helloValue" placeholder="world" name="hello">
+        <label for="receive">收货方</label>
+        <input type="text" class="form-control" id="receive" name="receive">
+        <br/>
+        <label for="data">发货数据</label>
+        <br/>
+        <textarea id="data" name="data" rows="4" cols="60"></textarea>
+    </div>
+    <br/>
+    <input type="hidden" name="submitted" value="true">
+    <button type="submit" class="btn btn-default">Send the request</button>
+</form>
+
+<a href="home">Back to Home</a>
+{{end}}
+{{define "script"}}
+    <script>
+        window.onload = function () {
+            document.getElementById("user").innerText = document.getElementById("hidden").innerText
+        }
+        function quit() {
+            console.log("quit")
+            window.location = "/login";
+            setCookie("username","",-1)
+        }
+        function setCookie(name, value, seconds) {
+            seconds = seconds || 0;
+            var expires = "";
+            if (seconds != 0) {
+                var date = new Date();
+                date.setTime(date.getTime() + (seconds * 1000));
+                expires = "; expires=" + date.toGMTString();
+            }
+            document.cookie = name + "=" + escape(value) + expires + "; path=/";
+        }
+    </script>
+{{end}}

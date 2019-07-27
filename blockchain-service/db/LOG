@@ -1,0 +1,240 @@
+=============== Jul 27, 2019 (CST) ===============
+15:59:03.948016 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:59:03.959252 db@open opening
+15:59:03.961783 version@stat F·[] S·0B[] Sc·[]
+15:59:03.969173 db@janitor F·2 G·0
+15:59:03.969224 db@open done T·9.955535ms
+15:59:03.969680 db@close closing
+15:59:03.969749 db@close done T·66.908µs
+=============== Jul 27, 2019 (CST) ===============
+15:59:05.104658 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:59:05.104786 version@stat F·[] S·0B[] Sc·[]
+15:59:05.104794 db@open opening
+15:59:05.104836 journal@recovery F·1
+15:59:05.106750 journal@recovery recovering @1
+15:59:05.108999 version@stat F·[] S·0B[] Sc·[]
+15:59:05.121781 db@janitor F·2 G·0
+15:59:05.121819 db@open done T·17.019734ms
+15:59:05.122176 db@close closing
+15:59:05.122207 db@close done T·29.688µs
+=============== Jul 27, 2019 (CST) ===============
+15:59:12.969608 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:59:12.969864 version@stat F·[] S·0B[] Sc·[]
+15:59:12.969876 db@open opening
+15:59:12.969913 journal@recovery F·1
+15:59:12.970484 journal@recovery recovering @2
+15:59:12.973332 version@stat F·[] S·0B[] Sc·[]
+15:59:12.992471 db@janitor F·2 G·0
+15:59:12.992506 db@open done T·22.623467ms
+15:59:12.992857 db@close closing
+15:59:12.992959 db@close done T·99.803µs
+=============== Jul 27, 2019 (CST) ===============
+15:59:13.690491 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:59:13.690664 version@stat F·[] S·0B[] Sc·[]
+15:59:13.690673 db@open opening
+15:59:13.690706 journal@recovery F·1
+15:59:13.691386 journal@recovery recovering @4
+15:59:13.692960 version@stat F·[] S·0B[] Sc·[]
+15:59:13.704236 db@janitor F·2 G·0
+15:59:13.704303 db@open done T·13.621029ms
+15:59:13.704655 db@close closing
+15:59:13.704715 db@close done T·58.157µs
+=============== Jul 27, 2019 (CST) ===============
+15:59:54.023402 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:59:54.023527 version@stat F·[] S·0B[] Sc·[]
+15:59:54.023535 db@open opening
+15:59:54.023596 journal@recovery F·1
+15:59:54.023972 journal@recovery recovering @6
+15:59:54.025504 version@stat F·[] S·0B[] Sc·[]
+15:59:54.037349 db@janitor F·2 G·0
+15:59:54.037394 db@open done T·13.851843ms
+15:59:54.037781 db@close closing
+15:59:54.037833 db@close done T·50.9µs
+=============== Jul 27, 2019 (CST) ===============
+15:59:57.295768 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:59:57.295922 version@stat F·[] S·0B[] Sc·[]
+15:59:57.295942 db@open opening
+15:59:57.295971 journal@recovery F·1
+15:59:57.296629 journal@recovery recovering @8
+15:59:57.298087 version@stat F·[] S·0B[] Sc·[]
+15:59:57.309727 db@janitor F·2 G·0
+15:59:57.309764 db@open done T·13.815807ms
+15:59:57.310115 db@close closing
+15:59:57.310167 db@close done T·50.522µs
+=============== Jul 27, 2019 (CST) ===============
+16:01:58.301582 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:01:58.301712 version@stat F·[] S·0B[] Sc·[]
+16:01:58.301721 db@open opening
+16:01:58.301751 journal@recovery F·1
+16:01:58.302774 journal@recovery recovering @10
+16:01:58.304439 version@stat F·[] S·0B[] Sc·[]
+16:01:58.316278 db@janitor F·2 G·0
+16:01:58.316304 db@open done T·14.577122ms
+16:01:58.316704 db@close closing
+16:01:58.316768 db@close done T·61.096µs
+=============== Jul 27, 2019 (CST) ===============
+16:01:59.530080 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:01:59.530203 version@stat F·[] S·0B[] Sc·[]
+16:01:59.530221 db@open opening
+16:01:59.530273 journal@recovery F·1
+16:01:59.532019 journal@recovery recovering @12
+16:01:59.533350 version@stat F·[] S·0B[] Sc·[]
+16:01:59.546615 db@janitor F·2 G·0
+16:01:59.546665 db@open done T·16.438538ms
+16:01:59.546960 db@close closing
+16:01:59.546997 db@close done T·35.829µs
+=============== Jul 27, 2019 (CST) ===============
+16:02:00.662223 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:02:00.662373 version@stat F·[] S·0B[] Sc·[]
+16:02:00.662380 db@open opening
+16:02:00.662408 journal@recovery F·1
+16:02:00.663311 journal@recovery recovering @14
+16:02:00.664603 version@stat F·[] S·0B[] Sc·[]
+16:02:00.677508 db@janitor F·2 G·0
+16:02:00.677541 db@open done T·15.155642ms
+16:02:00.677862 db@close closing
+16:02:00.677909 db@close done T·45.519µs
+=============== Jul 27, 2019 (CST) ===============
+16:02:01.887129 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:02:01.887285 version@stat F·[] S·0B[] Sc·[]
+16:02:01.887292 db@open opening
+16:02:01.887322 journal@recovery F·1
+16:02:01.888004 journal@recovery recovering @16
+16:02:01.889580 version@stat F·[] S·0B[] Sc·[]
+16:02:01.901701 db@janitor F·2 G·0
+16:02:01.901738 db@open done T·14.440076ms
+16:02:01.902183 db@close closing
+16:02:01.902237 db@close done T·52.402µs
+=============== Jul 27, 2019 (CST) ===============
+16:02:33.467603 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:02:33.467712 version@stat F·[] S·0B[] Sc·[]
+16:02:33.467721 db@open opening
+16:02:33.467752 journal@recovery F·1
+16:02:33.468545 journal@recovery recovering @18
+16:02:33.470102 version@stat F·[] S·0B[] Sc·[]
+16:02:33.482239 db@janitor F·2 G·0
+16:02:33.482294 db@open done T·14.56666ms
+16:02:33.482698 db@close closing
+16:02:33.482802 db@close done T·101.523µs
+=============== Jul 27, 2019 (CST) ===============
+16:02:34.599403 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:02:34.599509 version@stat F·[] S·0B[] Sc·[]
+16:02:34.599517 db@open opening
+16:02:34.599547 journal@recovery F·1
+16:02:34.600414 journal@recovery recovering @20
+16:02:34.602109 version@stat F·[] S·0B[] Sc·[]
+16:02:34.614935 db@janitor F·2 G·0
+16:02:34.614992 db@open done T·15.468742ms
+16:02:34.615543 db@close closing
+16:02:34.615639 db@close done T·93.295µs
+=============== Jul 27, 2019 (CST) ===============
+16:02:50.403607 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:02:50.403710 version@stat F·[] S·0B[] Sc·[]
+16:02:50.403717 db@open opening
+16:02:50.403747 journal@recovery F·1
+16:02:50.404516 journal@recovery recovering @22
+16:02:50.405845 version@stat F·[] S·0B[] Sc·[]
+16:02:50.418427 db@janitor F·2 G·0
+16:02:50.418499 db@open done T·14.775089ms
+16:02:50.418852 db@close closing
+16:02:50.418886 db@close done T·33.832µs
+=============== Jul 27, 2019 (CST) ===============
+16:02:51.310468 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:02:51.310634 version@stat F·[] S·0B[] Sc·[]
+16:02:51.310642 db@open opening
+16:02:51.310672 journal@recovery F·1
+16:02:51.311357 journal@recovery recovering @24
+16:02:51.313536 version@stat F·[] S·0B[] Sc·[]
+16:02:51.325945 db@janitor F·2 G·0
+16:02:51.326000 db@open done T·15.351841ms
+16:02:51.326325 db@close closing
+16:02:51.326352 db@close done T·25.881µs
+=============== Jul 27, 2019 (CST) ===============
+16:03:12.716469 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:03:12.716693 version@stat F·[] S·0B[] Sc·[]
+16:03:12.716706 db@open opening
+16:03:12.716741 journal@recovery F·1
+16:03:12.717753 journal@recovery recovering @26
+16:03:12.718424 version@stat F·[] S·0B[] Sc·[]
+16:03:12.730424 db@janitor F·2 G·0
+16:03:12.730460 db@open done T·13.747088ms
+16:03:12.731376 db@close closing
+16:03:12.731417 db@close done T·40.235µs
+=============== Jul 27, 2019 (CST) ===============
+16:03:13.811718 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:03:13.811863 version@stat F·[] S·0B[] Sc·[]
+16:03:13.811872 db@open opening
+16:03:13.811902 journal@recovery F·1
+16:03:13.812725 journal@recovery recovering @28
+16:03:13.815539 version@stat F·[] S·0B[] Sc·[]
+16:03:13.828902 db@janitor F·2 G·0
+16:03:13.828937 db@open done T·17.059169ms
+16:03:13.829299 db@close closing
+16:03:13.829510 db@close done T·206.739µs
+=============== Jul 27, 2019 (CST) ===============
+16:03:48.349173 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:03:48.349558 version@stat F·[] S·0B[] Sc·[]
+16:03:48.349571 db@open opening
+16:03:48.349609 journal@recovery F·1
+16:03:48.350352 journal@recovery recovering @30
+16:03:48.351076 version@stat F·[] S·0B[] Sc·[]
+16:03:48.362949 db@janitor F·2 G·0
+16:03:48.363008 db@open done T·13.429766ms
+16:03:48.363318 db@close closing
+16:03:48.363368 db@close done T·48.217µs
+=============== Jul 27, 2019 (CST) ===============
+16:03:49.858631 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:03:49.858769 version@stat F·[] S·0B[] Sc·[]
+16:03:49.858777 db@open opening
+16:03:49.858806 journal@recovery F·1
+16:03:49.859664 journal@recovery recovering @32
+16:03:49.860514 version@stat F·[] S·0B[] Sc·[]
+16:03:49.873642 db@janitor F·2 G·0
+16:03:49.873683 db@open done T·14.900573ms
+16:03:49.873995 db@close closing
+16:03:49.874047 db@close done T·51.027µs
+=============== Jul 27, 2019 (CST) ===============
+16:03:59.159527 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:03:59.159695 version@stat F·[] S·0B[] Sc·[]
+16:03:59.159702 db@open opening
+16:03:59.159731 journal@recovery F·1
+16:03:59.160880 journal@recovery recovering @34
+16:03:59.161608 version@stat F·[] S·0B[] Sc·[]
+16:03:59.173245 db@janitor F·2 G·0
+16:03:59.173282 db@open done T·13.573213ms
+16:03:59.173615 db@close closing
+16:03:59.173641 db@close done T·25.022µs
+=============== Jul 27, 2019 (CST) ===============
+16:04:00.338465 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:04:00.338650 version@stat F·[] S·0B[] Sc·[]
+16:04:00.338658 db@open opening
+16:04:00.338687 journal@recovery F·1
+16:04:00.339403 journal@recovery recovering @36
+16:04:00.340201 version@stat F·[] S·0B[] Sc·[]
+16:04:00.352522 db@janitor F·2 G·0
+16:04:00.352546 db@open done T·13.882553ms
+16:04:00.352979 db@close closing
+16:04:00.353065 db@close done T·85.143µs
+=============== Jul 27, 2019 (CST) ===============
+16:04:32.796971 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:04:32.797118 version@stat F·[] S·0B[] Sc·[]
+16:04:32.797126 db@open opening
+16:04:32.797155 journal@recovery F·1
+16:04:32.797758 journal@recovery recovering @38
+16:04:32.799361 version@stat F·[] S·0B[] Sc·[]
+16:04:32.815753 db@janitor F·2 G·0
+16:04:32.815797 db@open done T·18.664351ms
+16:04:32.816266 db@close closing
+16:04:32.816399 db@close done T·130.541µs
+=============== Jul 27, 2019 (CST) ===============
+16:04:34.204132 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:04:34.204239 version@stat F·[] S·0B[] Sc·[]
+16:04:34.204246 db@open opening
+16:04:34.204275 journal@recovery F·1
+16:04:34.205002 journal@recovery recovering @40
+16:04:34.208661 memdb@flush created L0@42 N·1 S·274B "6.3..-10,v1":"6.3..-10,v1"
+16:04:34.209280 version@stat F·[1] S·274B[274B] Sc·[0.25]
+16:04:34.229174 db@janitor F·3 G·0
+16:04:34.229258 db@open done T·25.006412ms
+16:04:34.229794 db@close closing
+16:04:34.229962 db@close done T·167.199µs
